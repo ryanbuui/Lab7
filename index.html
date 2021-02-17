@@ -128,6 +128,8 @@
         if(event == 'show') {
           document.getElementById("recordForm").style.display = "inline";
           document.getElementById("recordIDcontainer").style.display = "none";
+          document.getElementById('author').value = "";
+          document.getElementById('title').value = "";
         } else if(event == 'submit') {
           let currEP = document.getElementById('endpoint').value;
           let author = document.getElementById('author').value;
@@ -163,6 +165,8 @@
         if(event == 'show') {
           document.getElementById("recordForm").style.display = "inline";
           document.getElementById("recordIDcontainer").style.display = "inline";
+          document.getElementById('author').value = "";
+          document.getElementById('title').value = "";
         } else if(event == 'submit') {
           let recordID = document.getElementById('recordID').value;
           let currEP = document.getElementById('endpoint').value+"/"+recordID;

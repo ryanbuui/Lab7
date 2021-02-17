@@ -6,9 +6,19 @@
       "author": "typicode"
     },
     {
-      "author": "Bob",
-      "title": "Hello World!",
+      "author": "John",
+      "title": "Test",
       "id": 2
+    },
+    {
+      "author": "John",
+      "title": "Test",
+      "id": 3
+    },
+    {
+      "author": "Bob",
+      "title": "New",
+      "id": 4
     }
   ],
   "comments": [
